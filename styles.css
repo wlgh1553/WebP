@@ -1,7 +1,7 @@
 body {
   margin: 0; /* Remove default margin */
   font-family: Arial, sans-serif; /* Set default font */
-  color: #333; /* Set text color */
+  color: #333; 
   background-color: #ffffff; /* Set background color */
   align-items: center; /* Center-align items */
 }
@@ -24,8 +24,8 @@ nav {
 
 .logo img,
 .logo svg {
-  width: 150px; /* Set logo width */
-  height: auto; /* Maintain aspect ratio */
+  width: 150px; 
+  height: auto; 
   transition: width 0.3s ease; /* Smooth transition for width change */
 }
 
@@ -42,24 +42,24 @@ nav {
 }
 
 .nav-links a {
-  text-decoration: none; /* Remove underline */
-  color: #18191F; /* Set link color */
+  text-decoration: none; 
+  color: #18191F; 
 }
 
 .auth-buttons button {
-  background-color: #fff; /* Set background color */
-  border: none; /* Remove border */
-  color: #28a745; /* Set text color */
+  background-color: #fff; 
+  border: none; 
+  color: #28a745; 
   padding: 8px 16px; /* Set padding */
   cursor: pointer; /* Change cursor on hover */
   border-radius: 5px; /* Round corners */
-  font-size: 16px; /* Set font size */
+  font-size: 16px; 
   margin-left: 10px; /* Add left margin */
 }
 
 .auth-buttons .signup {
-  background-color: #28a745; /* Set background color */
-  color: #fff; /* Set text color */
+  background-color: #28a745; 
+  color: #fff; 
 }
 
 .hero {
@@ -71,13 +71,13 @@ nav {
 }
 
 .hero-card {
-  display: flex; /* Use flexbox for layout */
+  display: flex; 
   align-items: center; /* Center-align items vertically */
   justify-content: space-around; /* Space out items */
   padding: 60px 20px; /* Set padding */
-  max-width: 1440px; /* Set maximum width */
-  margin: 0 auto; /* Center horizontally */
-  color: #F5F7FA; /* Set text color */
+  max-width: 1440px; 
+  margin: 0 auto; 
+  color: #F5F7FA; 
 }
 
 .hero-content {
@@ -88,12 +88,12 @@ nav {
   font-size: 64px; /* Set font size */
   margin-bottom: 20px; /* Add bottom margin */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
   font-family: 'Inter', sans-serif; /* Set font */
 }
 
 .hero-content h1 span {
-  color: #28a745; /* Set span color */
+  color: #28a745; 
 }
 
 .hero-content p {
@@ -102,12 +102,12 @@ nav {
   font-family: 'Inter', sans-serif; /* Set font */
   line-height: 24px; /* Set line height */
   font-weight: 400; /* Set font weight */
-  color: #717171; /* Set text color */
+  color: #717171; 
 }
 
 .hero-content .register {
   background-color: #4CAF4F; /* Set background color */
-  color: #fff; /* Set text color */
+  color: #fff; 
   border: none; /* Remove border */
   padding: 14px 32px; /* Set padding */
   font-size: 18px; /* Set font size */
@@ -139,13 +139,13 @@ nav {
 .clients h2 {
   font-size: 36px; /* Set font size */
   margin-bottom: 10px; /* Add bottom margin */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
 }
 
 .clients p {
   font-size: 18px; /* Set font size */
   margin-bottom: 30px; /* Add bottom margin */
-  color: #717171; /* Set text color */
+  color: #717171; 
 }
 
 .client-logos {
@@ -176,15 +176,15 @@ nav {
 
 .community-management h2 {
   font-size: 36px; /* Set font size */
-  margin-bottom: 10px; /* Add bottom margin */
-  color: #4D4D4D; /* Set text color */
+  margin-bottom: 10px; 
+  color: #4D4D4D; 
 }
 
 .community-management p {
   font-size: 16px; /* Set font size */
   line-height: 24px; /* Set line height */
-  margin-bottom: 30px; /* Add bottom margin */
-  color: #717171; /* Set text color */
+  margin-bottom: 30px; 
+  color: #717171; 
 }
 
 .community-options {
@@ -229,7 +229,7 @@ nav {
   width: 100%; /* Set width to 100% */
   height: 100%; /* Set height to 100% */
   border-radius: 18px 5px 10px 5px; /* Round corners */
-  color: #E8F5E9; /* Set color */
+  color: #E8F5E9; 
   box-shadow: 0px 4px 4px 0px #00000040; /* Add shadow */
 }
 
@@ -244,12 +244,12 @@ nav {
 .community-options .option h3 {
   font-size: 20px; /* Set font size */
   margin-bottom: 10px; /* Add bottom margin */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
 }
 
 .community-options .option p {
   font-size: 14px; /* Set font size */
-  color: #717171; /* Set text color */
+  color: #717171;
   width: 70%; /* Set width */
 }
 
@@ -278,24 +278,24 @@ nav {
   font-size: 36px; /* Set font size */
   margin-bottom: 20px; /* Add bottom margin */
   line-height: 44px; /* Set line height */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
 }
 
 .featured-article .article-content p {
   font-size: 14px; /* Set font size */
   margin-bottom: 30px; /* Add bottom margin */
-  color: #717171; /* Set text color */
+  color: #717171; 
 }
 
 .featured-article .learn-more {
-  background-color: #4CAF4F; /* Set background color */
-  color: #fff; /* Set text color */
+  background-color: #4CAF4F; 
+  color: #fff; 
   border: none; /* Remove border */
   padding: 10px 20px; /* Set padding */
   font-size: 16px; /* Set font size */
   cursor: pointer; /* Change cursor on hover */
   border-radius: 4px; /* Round corners */
-  gap: 10px; /* Set gap */
+  gap: 10px; 
 }
 
 .statistics {
@@ -314,7 +314,7 @@ nav {
   font-size: 36px; /* Set font size */
   margin-bottom: 10px; /* Add bottom margin */
   text-align: left; /* Align text to the left */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
 }
 
 .statistics-header h2 span {
@@ -348,14 +348,14 @@ nav {
   width: 40px; /* Set image width */
   height: 40px; /* Set image height */
   margin-bottom: 10px; /* Add bottom margin */
-  color: #4CAF4F; /* Set color */
+  color: #4CAF4F; 
 }
 
 .stat-item h3 {
   font-size: 28px; /* Set font size */
   margin: 0; /* Remove margin */
   margin-left: 15px; /* Add left margin */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
 }
 
 .stat-item p {
@@ -363,7 +363,7 @@ nav {
   margin: 0; /* Remove margin */
   margin-left: 20px; /* Add left margin */
   text-align: left; /* Align text to the left */
-  color: #717171; /* Set text color */
+  color: #717171; 
 }
 
 .footer-design {
@@ -394,12 +394,12 @@ nav {
   font-weight: 600; /* Set font weight */
   line-height: 44px; /* Set line height */
   text-align: left; /* Align text to the left */
-  color: #4D4D4D; /* Set text color */
+  color: #4D4D4D; 
 }
 
 .footer-design-text p {
   margin-bottom: 30px; /* Add bottom margin */
-  color: #717171; /* Set text color */
+  color: #717171; 
   font-family: Inter; /* Set font */
   font-size: 14px; /* Set font size */
   font-weight: 400; /* Set font weight */
@@ -409,7 +409,7 @@ nav {
 
 .footer-design-text .learn-more {
   background-color: #28a745; /* Set background color */
-  color: #fff; /* Set text color */
+  color: #fff; 
   border: none; /* Remove border */
   padding: 10px 20px; /* Set padding */
   font-size: 16px; /* Set font size */
@@ -445,7 +445,7 @@ nav {
   font-size: 16px; /* Set font size */
   font-weight: 500; /* Set font weight */
   line-height: 24px; /* Set line height */
-  color: #717171; /* Set text color */
+  color: #717171; 
 }
 
 .testimonial-text p {
@@ -455,12 +455,12 @@ nav {
 .testimonial-text h4 {
   font-size: 18px; /* Set font size */
   margin-bottom: 5px; /* Add bottom margin */
-  color: #4CAF4F; /* Set text color */
+  color: #4CAF4F; 
 }
 
 .testimonial-text .position {
   font-size: 14px; /* Set font size */
-  color: #777; /* Set text color */
+  color: #777; 
 }
 
 .testimonial-customers {
@@ -500,20 +500,20 @@ nav {
 }
 
 .additional-content h2 {
-  font-family: Inter; /* Set font */
+  font-family: Inter; 
   font-size: 36px; /* Set font size */
   font-weight: 600; /* Set font weight */
   line-height: 44px; /* Set line height */
-  text-align: center; /* Center-align text */
+  text-align: center; 
 }
 
 .additional-content p {
-  font-family: Inter; /* Set font */
+  font-family: Inter; 
   font-size: 16px; /* Set font size */
-  font-weight: 400; /* Set font weight */
+  font-weight: 400; 
   line-height: 24px; /* Set line height */
-  text-align: center; /* Center-align text */
-  color: #717171; /* Set text color */
+  text-align: center;
+  color: #717171; 
   width: 45%; /* Set width */
   margin: 0 auto; /* Center horizontally */
 }
@@ -521,8 +521,8 @@ nav {
 .articles {
   display: flex; /* Use flexbox for layout */
   justify-content: space-around; /* Space out items */
-  flex-wrap: wrap; /* Allow wrapping */
-  gap: 20px; /* Set gap between items */
+  flex-wrap: wrap; 
+  gap: 20px; 
 }
 
 .article {
@@ -546,18 +546,18 @@ nav {
 
 .article-description h3 {
   font-family: Inter; /* Set font */
-  font-size: 20px; /* Set font size */
+  font-size: 20px; 
   font-weight: 600; /* Set font weight */
   line-height: 28px; /* Set line height */
-  text-align: center; /* Center-align text */
-  padding: 7%; /* Set padding */
-  color: #717171; /* Set text color */
+  text-align: center; 
+  padding: 7%; 
+  color: #717171; 
 }
 
 .article img {
   width: 100%; /* Set width */
   height: auto; /* Maintain aspect ratio */
-  margin-bottom: 20px; /* Add bottom margin */
+  margin-bottom: 20px; 
 }
 
 .article h3 {
@@ -572,7 +572,7 @@ nav {
   font-size: 20px; /* Set font size */
   font-weight: 600; /* Set font weight */
   line-height: 28px; /* Set line height */
-  text-align: left; /* Align text to the left */
+  text-align: left; 
 }
 
 .article .readmore:hover {
@@ -598,7 +598,7 @@ nav {
 
 .cta .get-demo {
   background-color: #28a745; /* Set background color */
-  color: #fff; /* Set text color */
+  color: #fff; 
   border: none; /* Remove border */
   padding: 15px 30px; /* Set padding */
   font-size: 18px; /* Set font size */
@@ -609,7 +609,7 @@ nav {
 
 footer {
   background-color: #263238; /* Set background color */
-  color: #fff; /* Set text color */
+  color: #fff; 
   padding: 40px 20px; /* Set padding */
   text-align: center; /* Center-align text */
 }
